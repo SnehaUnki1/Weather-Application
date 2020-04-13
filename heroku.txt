@@ -1,0 +1,13 @@
+>>Create Heroku account
+
+>>Add ssh key to application 
+    heroku keys:add
+Found an SSH public key at C:\Users\ravim\.ssh\id_rsa.pub
+? Would you like to upload it to Heroku? Yes
+Uploading C:\Users\ravim\.ssh\id_rsa.pub SSH key... done
+
+>>Create project in Heroku
+    heroku create nisarga-weather-application
+Creating ⬢ nisarga-weather-application... done
+https://nisarga-weather-application.herokuapp.com/ | https://git.heroku.com/nisarga-weather-application.git
+
