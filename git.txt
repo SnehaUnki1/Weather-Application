@@ -1,0 +1,14 @@
+>> Create account in github
+>>Download and install git npms --->> browser -->> git-scm.com 
+
+>>git init
+>>git add README.md
+>>git add . -->> to add all files
+>>git commit -m "first commit"
+
+>>Open id_rsa.pub ssh key file and copy that key and paste it into github account.
+  -->Login to github --> settings -->ssh and gsp --> paste 
+
+>>git remote add origin https://github.com/SnehaUnki1/Weather-Application.git
+>>git push -u origin master
+                

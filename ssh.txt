@@ -1,0 +1,12 @@
+>>ssh-keygen -t rsa -b 4096 -C "snehaunki@gmail.com"
+
+Your identification has been saved in C:\Users\ravim/.ssh/id_rsa.
+Your public key has been saved in C:\Users\ravim/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:clVQpLtt4e5h2AAHSQjjDpr2CHI1FpEYG5l2n9Tksv4 snehaunki@gmail.com
+
+
+>>eval "$(ssh-agent -s)" --->> Git Bash
+Agent pid 79
+>>ssh add ~/.ssh/id_rsa --->> Git Bash
+Identity added: /c/Users/ravim/.ssh/id_rsa (/c/Users/ravim/.ssh/id_rsa)

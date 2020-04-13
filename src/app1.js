@@ -6,6 +6,8 @@ const forecast = require('./utils/forecast')
 
 //Set up Express path configuration
 const app = express()
+const port = process.env.PORT || 3000
+
 const publicDirectoryPath = path.join(__dirname, '../public')
 const partialspath = path.join(__dirname,'../templates/partials')
 
@@ -103,6 +105,6 @@ app.get('help/*', (req, res) => {
 //     })
 // })
 
-app.listen(3000,() =>{
+app.listen(port,() =>{
     console.log('Server is UP listening to 3000 port')
 })
