@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "src/app1.js"
+    "start": "node src/app1.js"
   },
   "keywords": [],
   "author": "",
