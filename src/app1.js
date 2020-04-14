@@ -9,6 +9,7 @@ const app = express()
 const port = process.env.PORT || 3000
 
 const publicDirectoryPath = path.join(__dirname, '../public')
+const viewspath = path.join(__dirname,'../templates/views')
 const partialspath = path.join(__dirname,'../templates/partials')
 
 //Set up handler engine and viewa location.
