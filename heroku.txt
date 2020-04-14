@@ -9,5 +9,5 @@ Uploading C:\Users\ravim\.ssh\id_rsa.pub SSH key... done
 >>Create project in Heroku
     heroku create nisarga-weather-application
 Creating ⬢ nisarga-weather-application... done
-https://nisarga-weather-application.herokuapp.com/ | https://git.heroku.com/nisarga-weather-application.git
+https://nisarga-weather -application.herokuapp.com/ | https://git.heroku.com/nisarga-weather-application.git
 
