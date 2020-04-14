@@ -15,9 +15,11 @@ const partialspath = path.join(__dirname,'../templates/partials')
 //Set up handler engine and viewa location.
 // by default express look for views folder.
 app.set('view engine', 'hbs')
+app.set('views',viewspath)
 
 //Setup static directory to serve apllication
 app.use(express.static(publicDirectoryPath))
+
 hbs.registerPartials(partialspath)
 
 app.get('/weather',(req, res) => {
